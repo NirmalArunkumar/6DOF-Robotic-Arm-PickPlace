@@ -147,5 +147,5 @@ python train.py
 
 ## Course
 
-**ECE342** — University of Waterloo  
+**ECE342** — University of Toronto  
 Robotic arm manipulation project.
