@@ -2,7 +2,7 @@
 
 A complete embedded + computer-vision pipeline for a 6-degree-of-freedom robotic arm. The arm autonomously locates objects with a YOLOv8 detector, converts pixel coordinates to world coordinates via a calibrated homography, solves the inverse kinematics analytically, and drives six servo joints with closed-loop potentiometer feedback over a PCA9685 PWM driver.
 
-> **Note:** The firmware (`main.cpp`) is written in Arduino style. Our STM32 burned one day before the demo, so we pivoted to an Arduino-compatible board with what we had on hand.
+> **Note:** The firmware (`main.cpp`) is written in Arduino style.
 
 ---
 
