@@ -1,4 +1,4 @@
-# ECE342 — 6-DOF Robotic Arm with Vision-Guided IK
+# 6-DOF Robotic Arm with Vision-Guided IK
 
 A complete embedded + computer-vision pipeline for a 6-degree-of-freedom robotic arm. The arm autonomously locates objects with a YOLOv8 detector, converts pixel coordinates to world coordinates via a calibrated homography, solves the inverse kinematics analytically, and drives six servo joints with closed-loop potentiometer feedback over a PCA9685 PWM driver.
 
@@ -145,7 +145,6 @@ python train.py
 
 ---
 
-## Course
+## Project
+MIT license - anyone can modify and share.
 
-**ECE342** — University of Toronto  
-Robotic arm manipulation project.
